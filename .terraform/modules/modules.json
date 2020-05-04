@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"storage","Source":"./storage","Dir":"storage"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"storage","Source":"./storage","Dir":"storage"},{"Key":"networking","Source":"./networking","Dir":"networking"}]}
