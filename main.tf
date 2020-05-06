@@ -26,4 +26,7 @@ module "networking" {
   #Subnet
   subnet_display_name = "${var.subnet_display_name}"
   subnet_cidr_block   = "${var.subnet_cidr_block}"
+
+  #Security List
+  security_list_display_name = "${var.security_list_display_name}"
 }
