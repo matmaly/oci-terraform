@@ -15,6 +15,7 @@ variable "ig_display_name" {}
 variable "subnet_cidr_block" {}
 variable "subnet_display_name" {}
 variable "security_list_display_name" {}
+variable "route_table_display_name" {}
 
 #Compute vars
 variable "instance_shape" {

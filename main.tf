@@ -29,6 +29,9 @@ module "networking" {
 
   #Security List
   security_list_display_name = "${var.security_list_display_name}"
+  
+  #Route Table
+  route_table_display_name = "${var.route_table_display_name}"
 }
 
 # Deploy Compute
