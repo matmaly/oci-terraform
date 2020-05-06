@@ -18,3 +18,8 @@ output "subnet_id" {
 output "security_list_id" {
   value = "${module.networking.security_list_id}"
 }
+
+# Compute
+output "instance_id" {
+  value = "${module.compute.instance_id}"
+}

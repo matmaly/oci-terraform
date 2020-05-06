@@ -1,15 +1,11 @@
 #-----compute/variables.tf-----
 
-variable "subnet_id" { 
-  module "networking" {
-    source    = "../networking"
-    subnet_id = "${oci_core_subnet.oci_subnet_tf.id}"
-  }
-}
-
+variable "compartment_id" {}
+variable "instance_availability_domain" {}
+variable "subnet_id" {}
 variable "instance_shape" {}
 variable "instance_display_name" {}
 variable "instance_shape_config_ocpus" {}
-variable "ssh_public_keys" {}
+variable "ssh_public_key" {}
 variable "instance_image_id" {}
 

@@ -30,3 +30,17 @@ module "networking" {
   #Security List
   security_list_display_name = "${var.security_list_display_name}"
 }
+
+# Deploy Compute
+module "compute" {
+  source 	               = "./compute"
+  compartment_id 	       = "${var.compartment_id}"
+  instance_availability_domain = "${var.instance_availability_domain}"
+  instance_shape               = "${var.instance_shape}"
+  subnet_id 	               = "${module.networking.subnet_id}"
+  instance_display_name        = "${var.instance_display_name}"
+  ssh_public_key               = "${var.instance_public_key}"
+  instance_shape_config_ocpus  = "${var.instance_shape_config_ocpus}"
+  instance_image_id   	       = "${var.instance_image_id}"
+  
+}
