@@ -1,0 +1,5 @@
+instance_shape = "VM.Standard2.1"
+instance_display_name = "ubuntu_mma_tf"
+instance_shape_config_ocpus = "1"
+ssh_public_key = "/home/ubuntu/terraform/oci/oci-terraform/compute/keys/ssh_key.pub"
+instance_image_id = "ocid1.image.oc1.eu-frankfurt-1.aaaaaaaaukhdqqokh3evzyqvashnxld2gyl2wx6k5cratnb7hcxij4u7eh3q"
