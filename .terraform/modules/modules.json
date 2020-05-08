@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"networking","Source":"./networking","Dir":"networking"},{"Key":"compute","Source":"./compute","Dir":"compute"},{"Key":"","Source":"","Dir":"."},{"Key":"storage","Source":"./storage","Dir":"storage"}]}
+{"Modules":[{"Key":"networking","Source":"./networking","Dir":"networking"},{"Key":"compute","Source":"./compute","Dir":"compute"},{"Key":"","Source":"","Dir":"."},{"Key":"storage","Source":"./storage","Dir":"storage"},{"Key":"database","Source":"./database","Dir":"database"}]}

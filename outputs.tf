@@ -27,3 +27,16 @@ output "instance_id" {
 output "instance_public_ip" {
   value = "${module.compute.instance_public_ip}"
 }
+
+# Database
+output "autonomous_db_id" {
+  value = "${module.database.autonomous_db_id}"
+}
+
+output "autonomous_db_name" {
+  value = "${module.database.autonomous_db_name}"
+}
+
+output "autonomous_db_pass" {
+  value = "module.database.autonomous_db_pass"
+}
